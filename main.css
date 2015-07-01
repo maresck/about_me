@@ -7,8 +7,8 @@ body {
 }
 
 .introduction h1 {
-  font-family: 'Raleway', sans-serif;  font-size:
-  font-size: 85px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
   color: white;
   text-align: left;
   position: relative;
@@ -17,7 +17,8 @@ body {
 }
 
 .introduction p {
-  font-family: 'Raleway', sans-serif;  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
   color: white;
 
 }
