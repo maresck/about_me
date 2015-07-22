@@ -56,3 +56,11 @@ td#equals {
 body {
   background-color: ;
 }
+
+div {
+  border: 1px solid black;
+  height:50px;
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+}
