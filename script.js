@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $("button").click(function() {
-    $("div").text("Good job!");
-  )};
-)};
+    var onetext = 7
+    $("#7").click(function() {
+      $("th").text(onetext);
+      console.log("documentloaded");
+    });
+});
