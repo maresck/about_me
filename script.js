@@ -1,7 +1,10 @@
+var currentScreen = "";
+
 $(document).ready(function(){
-    var onetext = 7
-    $("#7").click(function() {
-      $("th").text(onetext);
-      console.log("documentloaded");
+    $(".numbers").click(function(e) {
+      currentScreen = currentScreen + e.currentTarget.textContent;
+      $("th").text(currentScreen);
+      console.log(currentScreen);
     });
+
 });
