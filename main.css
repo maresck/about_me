@@ -6,23 +6,67 @@ body {
   background: none;
 }
 
-.introduction h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 90px;
-  text-align: center;
-  position: relative;
-  background: rgba(0,0,0,0);
-  margin-top: 175px;
-  border: 1px solid;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.nav {
+  margin-top: 10px;
 }
 
-.col-md-2 {
-  margin-top: 175px;
-  border: 1px solid;
-  padding-top: 30px;
-  padding-bottom: 30px;}
+ul li {
+  display: inline;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+#name {
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#tagline {
+  font-size: 20px;
+  font-family:'Raleway', sans-serif;
+}
+
+.jumbotron {
+  height: 100%;
+  margin-top: 100px;
+}
+
+.jumbotron h1 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-family: 'Raleway', sans-serif, black;
+  font-size: 50px;
+  //*border: 1px solid;*//
+  text-decoration: none;
+  text-align: left;
+}
+
+.jumbotron p {
+  margin-left: 20px;
+  padding-left: 35px;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif, black;
+}
+
+.col-md-4 h4 {
+  text-align: center;
+  border: 1px solid black;
+  font-family: 'Raleway', sans-serif, black;
+  font-size: 20px;
+}
+
+.col-md-4 li {
+  display: block;
+}
 
 .footer {
   position: absolute;
